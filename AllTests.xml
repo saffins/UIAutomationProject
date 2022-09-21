@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="automationpractice.com">
+
+
+    <test name="create account test" preserve-order="true" thread-count="1">
+        <classes>
+            <class name="com.toptaltest.UI.CreateAccountTest"></class>
+        </classes>
+   </test>
+    <test name="login to account test" preserve-order="true" thread-count="1">
+        <classes>
+            <class name="com.toptaltest.UI.LoginTest"></class>
+
+        </classes>
+    </test>
+    <test name="Cart functionality test" preserve-order="true" thread-count="1">
+        <classes>
+            <class name="com.toptaltest.UI.ShopFlowTest"></class>
+
+        </classes>
+    </test>
+    <test name="API Tests" preserve-order="true" thread-count="1">
+        <classes>
+
+            <class name="com.toptaltest.API.APITest"></class>
+
+
+        </classes>
+
+</test>
+        </suite>
